@@ -33,6 +33,12 @@ li a:hover{
 
 }
 
+.nav-bar{
+  display:inline;  
+  justify-content: center;
+  align-items: center;
+}
+
 table{
     border-style:solid ;
     border-width:1px ;
@@ -62,3 +68,20 @@ th, td{
 
 
 
+
+.about{
+    background-color: grey;
+    padding:none;
+    margin-left: 20px;   
+}
+
+
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color:yellowgreen;
+    color: white;
+    font-weight: bold;
+}

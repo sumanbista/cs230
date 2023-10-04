@@ -1,4 +1,5 @@
 /* This is a comment in CSS*/
+
 h1{
     color: blue;
     text-align: center;
@@ -6,45 +7,165 @@ h1{
     background-color: white;
 }
 
-ul {
-    list-style-type:none;
-    margin: 10px;
-    margin-left: 30px;
-    padding: 8px;
-    background-color:grey;
+.navbar {
+    background-color:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
-li{
-    display:inline;
-    margin-inline: 8px;
+.navbar ul {
+    background-color: #008CBA;
+    padding: 10px; 
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-li a{
-    display:inline;
+.navbar ul li {
+    background-color:none;
+    display: inline-block;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.navbar ul li a {
+    display: block;
+    font-family: Arial;
     color:white;
-    padding: 8px 8px;
-    text-align:center;
+    font-size: 16px;
     text-decoration: none;
-    font-size:large;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
 }
 
-li a:hover{
-    background-color: red;
-
+.navbar ul li a:hover {
+    font-weight: bold;
+    background-color: gray;
 }
 
-.nav-bar{
-  display:inline;  
-  justify-content: center;
-  align-items: center;
+
+.about-container{
+    background-color:azure;     
 }
+
+.about-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:100px;    
+}
+
+.about-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;    
+}
+
+.about-item{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;    
+}
+
+.page4-conatiner{
+    background-color:aquamarine;
+    margin-top:75px;
+    margin-bottom:25px;
+}
+
+.page4-contents{
+    background-color: none;
+}
+
+.page4-content1{
+    background-color:none; 
+    color: black;
+    text-align: center;
+}
+
+.page4-content2{
+    display: flex;
+    flex-direction:row;
+    background-color: gray;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+.page4-content3{
+    background-color: #008CBA;
+    margin: 15px;
+    padding: 10px;          
+    border-radius: 10px;
+    font:14pt Tahoma;
+    font-weight: bold;
+    background-image:linear-gradient(to right, red, green, blue);
+}
+
+.page4-content4{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px; 
+    text-shadow: 2px 2px 4px #000000;
+    font:italic 14pt Verdana, Geneva, Tahoma, sans-serif;
+    background-image:linear-gradient(to bottom right, red, green, blue);           
+    
+}
+
+.page4-content5{
+    background-color: chocolate;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font:italic 14pt Verdana, Geneva, Tahoma, sans-serif;
+    background-image:
+    linear-gradient(235deg, red, green, blue);
+    border-radius: 10px;           
+}
+
+.page4-content6{
+    background-color: bisque;
+    margin: 15px;
+    padding: 10px;
+    font:14pt Tahoma;
+    font-weight: bold;
+    text-shadow: 1px 1px; 
+    border-radius: 10px;
+    background-image:linear-gradient(to right, rgba(110,49,75,90), rgba(255,0,0,1));
+}
+
 
 table{
     border-style:solid ;
     border-width:1px ;
-    margin-bottom: 10px;
-    margin-left: 60px;
+    margin-top:100px;
+    margin-bottom:75px;
+    margin-left:75px;
     text-align: center;
+    justify-content: center;
     background-color: none;
 }
 th, td{ 
@@ -68,20 +189,23 @@ th, td{
 
 
 
-
-.about{
-    background-color: grey;
-    padding:none;
-    margin-left: 20px;   
-}
-
-
-
-footer{
-    display: block;
-    text-align: center;
-    padding: 3px;
-    background-color:yellowgreen;
+.footer{
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     color: white;
-    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top:10px;
+}
+.footer a{
+    background-color:cadetblue;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+
+
 }

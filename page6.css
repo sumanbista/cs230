@@ -1,0 +1,175 @@
+.benefit-container{
+    background-color:rgb(81, 228, 228);
+    padding:0px;
+    margin-top:75px;
+    margin: opx;
+
+
+}
+
+.benefit-container h2{
+    text-align: center;
+}
+
+.benefit-items{
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+    text-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    border: 1px solid black;
+
+}
+
+.benefit-item{
+    background-color: bisque;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 100em;
+
+}
+
+.benefit-item h3{
+    text-align: center;
+}
+
+.leader{
+    background-color: rgb(81, 228, 123);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    overflow-y: scroll;
+
+}
+.visibility{
+    background-color: rgb(152, 81, 228);
+    text-align: center;
+    padding:5px;
+    margin:5px;
+    border: 1px solid black;
+    overflow: scroll;
+
+}
+
+.positioning-relative{
+    background-color: rgb(228, 81, 81);
+    text-align: center;
+    padding:5px;
+    margin-bottom:50px;
+    border-radius:5px ;
+    overflow: auto;
+}
+
+.positioning-relative > h2{
+    background-color: rgba(39, 244, 59, 0.285);
+    text-align: center;
+    padding:5px;
+    margin-bottom:5px;
+    border-radius:5px ;
+    overflow: auto;
+    position: sticky;
+}
+
+
+
+.positioning-absolute{
+    background-color: rgb(228, 81, 81);
+    text-align: center;
+    padding:5px;
+    margin-bottom:50px;
+    border-radius:5px ;
+    overflow: auto;
+    transform:rotate(45deg);
+}
+
+.positioning-absolute > h2{
+    background-color: rgb(206, 228, 81);
+    text-align: center;
+    padding:5px;
+    margin-bottom:5px;
+    border-radius:5px ;
+    overflow: auto;
+    position: absolute;
+}
+
+.positioning-sticky{
+    background-color: rgb(228, 135, 81);
+    text-align: center;
+    padding:5px;
+    margin-bottom:50px;
+    border-radius:5px ;
+    overflow: auto;
+}
+
+.positioning-sticky > h2{
+    background-color: rgb(81, 228, 208);
+    text-align: center;
+    padding:5px;
+    margin-bottom:5px;
+    border-radius:5px ;
+    overflow: auto;
+    position: sticky;
+}
+.positioning-sticky > h3{
+    position:right;
+    background-color: rgba(39, 244, 59, 0.285);
+    transform:scale(3.8,.80);
+}
+
+.positioning-static{
+    background-color: rgb(228, 81, 81);
+    text-align: center;
+    padding:5px;
+    margin-bottom:50px;
+    border-radius:5px ;
+    overflow: auto;
+    max-height:100px;
+    max-width: 250%;
+}
+
+.positioning-static > h2{
+    background-color: rgb(103, 81, 228);
+    text-align: center;
+    padding:5px;
+    margin-bottom:50px;
+    border-radius:5px ;
+    overflow: auto;
+    position: static;
+    z-index:10;
+}
+
+.positioning-static > h3{
+    z-index:12;
+}
+
+
+.positioning-fixed{
+    background-color: rgb(81, 228, 118);
+    text-align: center;
+    padding:5px;
+    margin-bottom:100px;
+    border-radius:5px ;
+    overflow: auto;
+    max-width:80%;
+    transform: translate(50%,25%);
+}
+
+.positioning-fixed > h2{
+    transform: skew(50deg);
+}
+
+.positioning-fixed > h3{
+    background-color: rgb(228, 81, 194);
+    text-align: center;
+    padding:5px;
+    border-radius:5px ;
+    overflow: auto;
+    position: fixed;   
+}
+

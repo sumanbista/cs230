@@ -31,7 +31,8 @@ h1{
 
 .navbar ul li {
     background-color:none;
-    display: inline-block;
+    display:flex;
+    float: left;
     color: white;
     margin: 5px;
     padding: 5px;
@@ -39,7 +40,6 @@ h1{
 
 
 .navbar ul li a {
-    display: block;
     font-family: Arial;
     color:white;
     font-size: 16px;

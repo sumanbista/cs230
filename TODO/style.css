@@ -1,0 +1,29 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+#todos{
+    background-color: aquamarine;
+    padding:1em;
+
+
+}
+
+#todoInput{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo{
+    background-color: lightblue;
+    margin:1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
